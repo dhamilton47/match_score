@@ -7,3 +7,11 @@ export function ListSeparator() {
 		</li>
 	);
 }
+
+export function ListSeparatorNonLI() {
+	return (
+		<>
+			•
+		</>
+	);
+}

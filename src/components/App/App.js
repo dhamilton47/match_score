@@ -7,29 +7,40 @@ class App extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			routes: {
-				home: {
+			routes: [
+				{
+					id: 0,
+					name: "home",
 					text: "Home",
 					link: "/"
 				},
-				match_details: {
+				{
+					id: 1,
+					name: "match_details",
 					text: "Match Details",
 					link: "/match_details/"
 				},
-				score_card: {
+				{
+					id: 2,
+					name: "score_card",
 					text: "Score Card",
 					link: "/score_card/"
 				}
-			}
+			]
 		}
 	}
 
 	render() {
 		return (
 			<Router>
-				<Route path="/" exact render={props => <Base page={"home"} routes={this.state.routes}/>}/>
-				<Route path="/match_details/" render={props => <Base page={"match_details"} routes={this.state.routes}/>}/>
-				<Route path="/score_card/" render={props => <Base page={"score_card"} routes={this.state.routes}/>}/>
+				{this.state.routes.map(route => 
+					<Route 
+						key={route.id}
+						path={route.link} 
+						exact 
+						render={props => <Base page={route.name} routes={this.state.routes}/>}
+					/>)
+				}
 			</Router>
 		);		
 	}

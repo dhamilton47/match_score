@@ -10,3 +10,11 @@ export const ListLink = props => {
 		</li>
 	);
 };
+
+export const ListLinkNonLI = props => {
+	return (
+		<Link to={props.location.link}>
+			{props.location.text}
+		</Link>
+	);
+};

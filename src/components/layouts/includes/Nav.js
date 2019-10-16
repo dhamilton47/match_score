@@ -6,9 +6,7 @@ export const Nav = props => {
 	return (
 		<header id="Nav" className={navStyle.nav}>
 			<ul className={navStyle.base}>
-				<ListLink location={props.routes.home}/>
-				<ListLink location={props.routes.match_details}/>
-				<ListLink location={props.routes.score_card}/>
+				{props.routes.map(route => <ListLink key={route.id} location={route}/>)}
 			</ul>
 		</header>
 	);
