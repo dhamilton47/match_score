@@ -1,8 +1,11 @@
 # Bowl
 
-This is web based application for recording and reporting on high school bowling matches.
+This is a web based application for recording and reporting on high school bowling matches.
 
 ### Work in progress.
+    
+    - Base page layout
+    - Setting up TDD
 
 ### Completed
 
