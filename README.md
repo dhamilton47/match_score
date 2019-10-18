@@ -3,17 +3,23 @@
 This is a web based application for recording and reporting on high school bowling matches.
 
 ### Work in progress.
-    
-    - Base page layout
+```    
+    - Home page
+    - Match Details page
+    - Score Card page
     - Setting up TDD
+```
 
 ### Completed
-
+```
+    - Base page layout (larger monitor)
+```
 ### Planned Features
 
 * Pages:
 ```
-    - Match Set-up
+    - Home
+    - Match Details
     - Scoring Summary
 ```
 
