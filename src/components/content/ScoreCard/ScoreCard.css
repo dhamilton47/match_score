@@ -1,0 +1,13 @@
+.score_card {
+    border: solid 1px red;
+    display: flex;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.summary_table {
+    border: solid 1px red;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
