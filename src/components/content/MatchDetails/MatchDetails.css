@@ -1,6 +1,18 @@
 .match_details {
     border: solid 1px red;
     display: block;
-    margin: 0 auto;
+    margin: 50px auto;
+    text-align: center;
     width: 900px;
+}
+
+.match_details_section_title {
+    font-size: 1.75rem;
+    line-height: 2rem;
+    padding: 20px;
+}
+
+form input[type="text"],
+form input[type="date"] {
+    margin: 5px;
 }

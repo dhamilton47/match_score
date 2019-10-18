@@ -12,7 +12,7 @@ describe('App', () => {
 		ReactDOM.unmountComponentAtNode(div);
     });
     
-    it('should render the team name', () => {
+    it('should render the Match Details page', () => {
         const wrapper = shallow(<MatchDetails/>);
         expect(wrapper.containsAllMatchingElements([
             <div>
@@ -21,7 +21,7 @@ describe('App', () => {
                     Opponent: <input type="text" name="opponent" placeholder="Bishop Moore"></input><br/>
                     Location: <input type="text" name="location" placeholder="Aloma Bowl"></input><br/>
                     Home/Away: <input type="text" name="status" placeholder="Home"></input><br/>
-                    Date: <input type="text" name="date" placeholder="Date"></input>
+                    Date: <input type="date" name="date" placeholder="Date"></input>
                 </form>
             </div>,
             <div className="match_details">	

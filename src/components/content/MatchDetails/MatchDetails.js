@@ -6,17 +6,17 @@ class MatchDetails extends Component {
 		return (
 			<>
 				<div className="match_details">
-					<div>WEST ORANGE WARRIORS BOWLING</div>
+					<div className="match_details_section_title">WEST ORANGE WARRIORS BOWLING</div>
 					
 					<form>
 						Opponent:<input type="text" name="opponent" placeholder="Bishop Moore"></input><br/>
 						Location: <input type="text" name="location" placeholder="Aloma Bowl"></input><br/>
 						Home/Away: <input type="text" name="status" placeholder="Home"></input><br/>
-						Date: <input type="text" name="date" placeholder="Date"></input>
+						Date: <input type="date" name="date" placeholder="Date"></input>
 					</form>
 				</div>
 				<div className="match_details">	
-					<div>Match Format</div>
+					<div className="match_details_section_title">Match Format</div>
 
 					<form>
 						Number of Linage Games: <input type="text" name="linage" placeholder="2"></input><br/>
