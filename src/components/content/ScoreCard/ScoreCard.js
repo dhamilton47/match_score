@@ -8,420 +8,222 @@ class ScoreCard extends Component {
  				<table className="summary_table">
 					<thead>
 						<tr>
-							<th colSpan="6">
-								WEST ORANGE WARRIORS
-							</th>
+							<th colSpan="6">WEST ORANGE WARRIORS</th>
 						</tr>
 						<tr>
-							<th>
-								Bowler
-							</th>
-							<th>
-								Game 1
-							</th>
-							<th>
-								Game 2
-							</th>
-							<th>
-								Game 3
-							</th>
-							<th>
-								Series
-							</th>
-							<th>
-								Running Total
-							</th>
+							<th className="col_player col_header">Bowler</th>
+							<th className="col_game col_header">Game 1</th>
+							<th className="col_game col_header">Game 2</th>
+							<th className="col_game col_header">Game 3</th>
+							<th className="col_total col_header">Series</th>
+							<th className="col_running_total col_header">Running Total</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td>
-								Kimberly Hamilton
-							</td>
-							<td>
-								195
-							</td>
-							<td>
-								205
-							</td>
-							<td>
-								230
-							</td>
-							<td>
-								630
-							</td>
-							<td>
-								630
-							</td>
+							<td className="col_player">Kimberly Hamilton</td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td>
-								Kimberly Hamilton
-							</td>
-							<td>
-								195
-							</td>
-							<td>
-								205
-							</td>
-							<td>
-								230
-							</td>
-							<td>
-								630
-							</td>
-							<td>
-								1260
-							</td>
+							<td className="col_player">Kimberly Hamilton</td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td>
-								Kimberly Hamilton
-							</td>
-							<td>
-								195
-							</td>
-							<td>
-								205
-							</td>
-							<td>
-								230
-							</td>
-							<td>
-								630
-							</td>
-							<td>
-								1890
-							</td>
+							<td className="col_player">Kimberly Hamilton</td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td>
-								Kimberly Hamilton
-							</td>
-							<td>
-								195
-							</td>
-							<td>
-								205
-							</td>
-							<td>
-								230
-							</td>
-							<td>
-								630
-							</td>
-							<td>
-								2520
-							</td>
+							<td className="col_player">Kimberly Hamilton</td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td>
-								Kimberly Hamilton
-							</td>
-							<td>
-								195
-							</td>
-							<td>
-								205
-							</td>
-							<td>
-								230
-							</td>
-							<td>
-								630
-							</td>
-							<td>
-								3150
-							</td>
+							<td className="col_player">Kimberly Hamilton</td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>
-								3150
-							</td>
+							<td className="col_player"></td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"/></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>
-								3150
-							</td>
+							<td className="col_player"></td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>
-								3150
-							</td>
+							<td className="col_player"></td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>
-								3150
-							</td>
+							<td className="col_player"></td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>
-								3150
-							</td>
+							<td className="col_player"></td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 					</tbody>
 					<tfoot>
 						<tr>
-							<td>
-								GrandTotal
-							</td>
-							<td>
-								975
-							</td>
-							<td>
-								1025
-							</td>
-							<td>
-								1150
-							</td>
-							<td>
-								3150
-							</td>
-							<td>
-								3150
-							</td>
+							<td className="col_player">GrandTotal</td>
+							<td className="col_game">0</td>
+							<td className="col_game">0</td>
+							<td className="col_game">0</td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>
-								Bishop Moore
-							</td>
-							<td>
-								+/-
-							</td>
-							<td>
-								0
-							</td>
+							<td className="col_player"></td>
+							<td className="col_game"></td>
+							<td className="col_game"></td>
+							<td className="col_game">Bishop Moore</td>
+							<td className="col_total">+/-</td>
+							<td className="col_running_total">0</td>
 						</tr>
 					</tfoot>
 				</table>
 				<table className="summary_table">
 					<thead>
 						<tr>
-							<th colSpan="6">
-								BISHOP MOORE HORNETS
-							</th>
+							<th colSpan="6">BISHOP MOORE HORNETS</th>
 						</tr>
 						<tr>
-							<th>
-								Bowler
-							</th>
-							<th>
-								Game 1
-							</th>
-							<th>
-								Game 2
-							</th>
-							<th>
-								Game 3
-							</th>
-							<th>
-								Series
-							</th>
-							<th>
-								Running Total
-							</th>
+							<th className="col_player col_header">Bowler</th>
+							<th className="col_game col_header">Game 1</th>
+							<th className="col_game col_header">Game 2</th>
+							<th className="col_game col_header">Game 3</th>
+							<th className="col_total col_header">Series</th>
+							<th className="col_running_total col_header">Running Total</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td>
-								Player 1
-							</td>
-							<td>
-								195
-							</td>
-							<td>
-								205
-							</td>
-							<td>
-								230
-							</td>
-							<td>
-								630
-							</td>
-							<td>
-								630
-							</td>
+							<td className="col_player">Player 1</td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td>
-								Player 2
-							</td>
-							<td>
-								195
-							</td>
-							<td>
-								205
-							</td>
-							<td>
-								230
-							</td>
-							<td>
-								630
-							</td>
-							<td>
-								1260
-							</td>
+							<td className="col_player">Player 2</td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td>
-								Player 3
-							</td>
-							<td>
-								195
-							</td>
-							<td>
-								205
-							</td>
-							<td>
-								230
-							</td>
-							<td>
-								630
-							</td>
-							<td>
-								1890
-							</td>
+							<td className="col_player">Player 3</td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td>
-								Player 4
-							</td>
-							<td>
-								195
-							</td>
-							<td>
-								205
-							</td>
-							<td>
-								230
-							</td>
-							<td>
-								630
-							</td>
-							<td>
-								2520
-							</td>
+							<td className="col_player">Player 4</td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td>
-								Player 5
-							</td>
-							<td>
-								195
-							</td>
-							<td>
-								205
-							</td>
-							<td>
-								230
-							</td>
-							<td>
-								630
-							</td>
-							<td>
-								3150
-							</td>
+							<td className="col_player">Player 5</td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>
-								3150
-							</td>
+							<td className="col_player"></td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>
-								3150
-							</td>
+							<td className="col_player"></td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>
-								3150
-							</td>
+							<td className="col_player"></td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>
-								3150
-							</td>
+							<td className="col_player"></td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>
-								3150
-							</td>
+							<td className="col_player"></td>
+							<td className="col_game"><input className="input_game" type="text" name="game1" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game2" placeholder="0"></input></td>
+							<td className="col_game"><input className="input_game" type="text" name="game3" placeholder="0"></input></td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 					</tbody>
 					<tfoot>
 						<tr>
-							<td>
-								GrandTotal
-							</td>
-							<td>
-								975
-							</td>
-							<td>
-								1025
-							</td>
-							<td>
-								1150
-							</td>
-							<td>
-								3150
-							</td>
-							<td>
-								3150
-							</td>
+							<td className="col_player">GrandTotal</td>
+							<td className="col_game">0</td>
+							<td className="col_game">0</td>
+							<td className="col_game">0</td>
+							<td className="col_total">0</td>
+							<td className="col_running_total">0</td>
 						</tr>
 					</tfoot>
 				</table>			

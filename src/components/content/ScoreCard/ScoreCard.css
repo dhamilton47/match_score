@@ -1,13 +1,60 @@
 .score_card {
-    border: solid 1px red;
+/*    border: solid 1px red;*/
     display: flex;
     margin: 0 auto;
-    width: 900px;
+    width: 920px;
 }
 
 .summary_table {
-    border: solid 1px red;
+ /*   border: solid 1px red;*/
     display: block;
     margin: 0 auto;
+    padding: 5px;
     width: 50%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    border: 1px solid transparent;
+}
+
+.col_player {
+    padding: 2px 0px 2px 4px;
+    text-align: left;
+    width: 149px;
+}
+
+.col_game {
+    padding: 2px 4px 2px 2px;
+    text-align: right;
+    width: 50px;
+}
+
+.col_total {
+    padding: 2px 4px 2px 0px;
+    text-align: right;
+    width: 60px;
+}
+
+.col_running_total {
+    padding: 2px 4px 2px 0px;
+    text-align: right;
+    width: 70px;
+}
+
+.col_header {
+    text-align: center;
+}
+
+.input_game {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin-left: 1px;
+    text-align: right;
+    width: 44px;
 }
