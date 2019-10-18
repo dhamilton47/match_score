@@ -4,8 +4,13 @@ import'./Home.css';
 class Home extends Component {
 	render() {
 		return (
-			<div>
-				Home Landing Page
+			<div className="home">
+				<div className="banner">
+					<h1><strong>MATCH</strong></h1>
+					<h1>SCORE</h1>
+					<br/>
+					<p>A High Bowling Match Scoring App</p>					
+				</div>
 			</div>
 		);
 	}

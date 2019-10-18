@@ -10,6 +10,20 @@ describe('App', () => {
 		const div = document.createElement('div');
 		ReactDOM.render(<Home />, div);
 		ReactDOM.unmountComponentAtNode(div);
-	});
+    });
+    
+    it('should render the Home page', () => {
+        const wrapper = shallow(<Home/>);
+        expect(wrapper.containsAllMatchingElements([
+            <div className="home">
+                <div>
+                    <h1><strong>MATCH</strong></h1>
+                    <h1>SCORE</h1>
+                    <br/>
+                    <p>A High Bowling Match Scoring App</p>
+                </div>
+            </div>
+		])).to.equal(true);
+    });
 })
 

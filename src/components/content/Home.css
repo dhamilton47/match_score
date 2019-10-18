@@ -1,0 +1,28 @@
+.home {
+    background: transparent;
+    background-image: url("../../images/West_Orange_High_School.png");
+    /*    border: solid 1px red;*/
+    display: block;
+    margin: 0 auto;
+    padding: 250px 0;
+    text-align: center;
+    width: 900px;
+}
+
+.home h1 {
+    line-height: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+}
+
+.home p {
+    color: white;
+}
+
+.banner {
+    background-color: teal;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    width: 350px;
+}
