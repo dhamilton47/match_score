@@ -104,7 +104,7 @@ class ScoreCard extends Component {
 						</tbody>
 						<tfoot>
 							<tr>
-								<td className="col_player">GrandTotal</td>
+								<td className="col_player">Linage Total</td>
 								<td className="col_game">0</td>
 								<td className="col_game">0</td>
 								<td className="col_game">0</td>
@@ -219,7 +219,7 @@ class ScoreCard extends Component {
 						</tbody>
 						<tfoot>
 							<tr>
-								<td className="col_player">GrandTotal</td>
+								<td className="col_player">Linage Total</td>
 								<td className="col_game">0</td>
 								<td className="col_game">0</td>
 								<td className="col_game">0</td>
@@ -273,7 +273,7 @@ class ScoreCard extends Component {
 						</tbody>
 						<tfoot>
 							<tr>
-								<td className="col_player">GrandTotal</td>
+								<td className="col_player">Baker Total</td>
 								<td className="col_baker_score">0</td>
 								<td className="col_baker_score">0</td>
 								<td className="col_total">0</td>

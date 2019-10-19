@@ -114,7 +114,7 @@ describe('ScoreCard', () => {
 					</tbody>
 					<tfoot>
 						<tr>
-							<td className="col_player">GrandTotal</td>
+							<td className="col_player">Linage Total</td>
 							<td className="col_game">0</td>
 							<td className="col_game">0</td>
 							<td className="col_game">0</td>
@@ -229,7 +229,7 @@ describe('ScoreCard', () => {
 					</tbody>
 					<tfoot>
 						<tr>
-							<td className="col_player">GrandTotal</td>
+							<td className="col_player">Linage Total</td>
 							<td className="col_game">0</td>
 							<td className="col_game">0</td>
 							<td className="col_game">0</td>
@@ -283,7 +283,7 @@ describe('ScoreCard', () => {
 					</tbody>
 					<tfoot>
 						<tr>
-							<td className="col_player">GrandTotal</td>
+							<td className="col_player">Baker Total</td>
 							<td className="col_baker_score">0</td>
 							<td className="col_baker_score">0</td>
 							<td className="col_total">0</td>
@@ -312,5 +312,67 @@ describe('ScoreCard', () => {
 				</table>
 			</div>
 		])).to.equal(true);
-    });})
+	});
 
+	it('should initialize state for ScoreCard correctly', () => {
+		const wrapper = shallow(<ScoreCard/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should allow data entry in a clean linage game input', () => {
+		const wrapper = shallow(<ScoreCard/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should ask for confirmation of data entry in a dirty linage game input', () => {
+		const wrapper = shallow(<ScoreCard/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should allow data entry in a clean baker game input', () => {
+		const wrapper = shallow(<ScoreCard/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should ask for confirmation of data entry in a dirty baker game input', () => {
+		const wrapper = shallow(<ScoreCard/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should update a player\'s series total after data entry a linage game input', () => {
+		const wrapper = shallow(<ScoreCard/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should update a team\'s running total after data entry a linage game input', () => {
+		const wrapper = shallow(<ScoreCard/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should update the +/- after data entry a linage game input', () => {
+		const wrapper = shallow(<ScoreCard/>);
+		expect(1).to.equal(0); // in the linage section
+		expect(1).to.equal(0); // in the match total section
+	});
+
+	it('should update the +/- after data entry a baker game input', () => {
+		const wrapper = shallow(<ScoreCard/>);
+		expect(1).to.equal(0); // in the baker section
+		expect(1).to.equal(0); // in the match total section
+	});
+
+	it('should update a team\'s total after data entry a baker game input', () => {
+		const wrapper = shallow(<ScoreCard/>);
+		expect(1).to.equal(0); // in the baker section
+		expect(1).to.equal(0); // in the match total section
+	});
+
+	/*
+
+	Bowler column <select> tests
+	it('should allow data entry in a clean game input', () => {
+		const wrapper = shallow(<ScoreCard/>);
+		expect(1).to.equal(0);
+	});
+	*/
+})

@@ -67,5 +67,91 @@ describe('App', () => {
             <button type="submit" className="match_details">Submit</button>
 		])).to.equal(true);
     });
+
+    it('should initialize state for MatchDetails correctly', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should allow data entry in a clean opponent input', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should ask for confirmation of data entry in a dirty opponent input', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should allow data entry in a clean opponent input', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should ask for confirmation of data entry in a dirty opponent input', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
+    it('should allow data entry in a clean location input', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should ask for confirmation of data entry in a dirty location input', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
+    it('should allow data entry in a clean homeAway input', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should ask for confirmation of data entry in a dirty homeAway input', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
+    it('should allow data entry in a clean date input', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should ask for confirmation of data entry in a dirty date input', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
+    it('should allow data entry in a clean number of linage games input', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should ask for confirmation of data entry in a dirty number of linage games input', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
+    it('should allow data entry in a clean number of baker games input', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should ask for confirmation of data entry in a dirty number of baker games input', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
+	it('should validate all entries prior to submitting', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+    });
+    
+    it('should create the appropriate template on the Score Card page on submit', () => {
+		const wrapper = shallow(<MatchDetails/>);
+		expect(1).to.equal(0);
+	});
+
 })
 
