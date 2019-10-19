@@ -20,7 +20,7 @@ describe('App', () => {
                     <h1><strong>MATCH</strong></h1>
                     <h1>SCORE</h1>
                     <br/>
-                    <p>A High Bowling Match Scoring App</p>
+                    <p>A High School Bowling Match Scoring App</p>
                 </div>
             </div>
 		])).to.equal(true);
