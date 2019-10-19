@@ -2,30 +2,24 @@
 
 This is a web based application for recording and reporting on high school bowling matches.
 
+## Minimum Viable Product for release 0.1.0
+
 ### Work in progress.
 ```    
     - Home page
     - Match Details page
     - Score Card page
-    - Setting up TDD
+    - Stubbing out TDD tests
 ```
 
 ### Completed
 ```
     - Base page layout (larger monitor)
 ```
-### Planned Features
 
-* Pages:
-```
-    - Home
-    - Match Details
-    - Scoring Summary
-```
+## Future Release Feature Ideas:
 
-### Open Issues: 
-
-* Additional Pages:
+* Additional Features:
 ```
     - School/Team Index
     - Team/Player Index
@@ -37,6 +31,8 @@ This is a web based application for recording and reporting on high school bowli
     - Game Scoring Show/Update
     - User Profile Admin      
 ```
+
+* Reactive styling :maybe:
 
 * Administration - current thoughts are to have a multi-section or multi-page registration process to set up the administration structure:
 ```
