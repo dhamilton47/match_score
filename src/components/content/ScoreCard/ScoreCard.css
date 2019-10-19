@@ -1,8 +1,26 @@
-.score_card {
-/*    border: solid 1px red;*/
+.score_card_linage {
+    /*    border: solid 1px red;*/
     display: flex;
     margin: 0 auto;
+    margin-top: 10px;
     width: 920px;
+}
+
+.score_card_baker {
+    /*    border: solid 1px red;*/
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 620px;
+}
+
+.score_card_match {
+    /*    border: solid 1px red;*/
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 620px;
 }
 
 .summary_table {
@@ -49,6 +67,19 @@ table {
 .col_header {
     text-align: center;
 }
+
+.col_team {
+    padding: 2px 0px 2px 4px;
+    text-align: center;
+    width: 200px;
+}
+
+.col_baker_score {
+    padding: 2px 4px 2px 2px;
+    text-align: right;
+    width: 50px;
+}
+
 
 .input_game {
     background: transparent;
