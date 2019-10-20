@@ -41,9 +41,14 @@ table {
 }
 
 .col_player {
+    background: transparent;
     padding: 2px 0px 2px 4px;
     text-align: left;
     width: 149px;
+}
+
+.col_player select {
+    background: transparent;
 }
 
 .col_game {

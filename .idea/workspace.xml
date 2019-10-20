@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09051649-dc1b-4975-9c30-773b5b4639a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/MatchDetails.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/MatchDetails.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/ScoreCard.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/ScoreCard.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/Home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/MatchDetails/MatchDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/MatchDetails/MatchDetails.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/MatchDetails/MatchDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/MatchDetails/MatchDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/ScoreCard/ScoreCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/ScoreCard/ScoreCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/content/ScoreCard/ScoreCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/ScoreCard/ScoreCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/Base.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/Base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/includes/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/includes/Content.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +37,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/__tests__" />
+    <property name="last_opened_file_path" value="C:/wamp_old/www/code/HSBowl" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,6 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571182741327</updated>
       <workItem from="1571182742589" duration="9875000" />
+      <workItem from="1571551828621" duration="224000" />
     </task>
     <servers />
   </component>
@@ -110,7 +121,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

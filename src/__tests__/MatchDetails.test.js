@@ -20,6 +20,7 @@ describe('App', () => {
                 
                 <form>
                     Opponent: <select name="opponent" required>
+						<option value="none">choose...</option>
                         <option value="apopka">Apopka Blue Darters</option>
                         <option value="bishop">Bishop Moore Hornets</option>
                         <option value="christian">Circle Christian Centurions</option>
@@ -31,12 +32,14 @@ describe('App', () => {
                         <option value="windermere">Windermere Badgers</option>
                     </select><br/>
                     Location: <select name="location" required>
+						<option value="none1">choose...</option>
                         <option value="aloma">Aloma</option>
                         <option value="skylanes">AMF Skylanes</option>
                         <option value="boardwalk">Boardwalk</option>
                         <option value="bolero">Bolero</option>
                     </select><br/>
                     Home/Away: <select name="side" required>
+					    <option value="none2">choose...</option>
                         <option value="home">Home</option>
                         <option value="away">Away</option>
                     </select><br/>
@@ -64,15 +67,12 @@ describe('App', () => {
                     </select>
                 </form>
             </div>,
-            <button type="submit" className="match_details">Submit</button>
+			<button type="submit" className="">Submit</button>,
+			<div className="match_details_spacer"></div>
 		])).to.equal(true);
     });
 
-    it('should initialize state for MatchDetails correctly', () => {
-		const wrapper = shallow(<MatchDetails/>);
-		expect(1).to.equal(0);
-	});
-
+/*
 	it('should allow data entry in a clean opponent input', () => {
 		const wrapper = shallow(<MatchDetails/>);
 		expect(1).to.equal(0);
@@ -152,6 +152,5 @@ describe('App', () => {
 		const wrapper = shallow(<MatchDetails/>);
 		expect(1).to.equal(0);
 	});
-
+*/
 })
-

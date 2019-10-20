@@ -7,9 +7,9 @@ class Base extends Component {
 	render() {
 		return (
 			<div>
-				<Nav routes={this.props.routes}/>
-				<Content page={this.props.page}/>
-				<Footer routes={this.props.routes}/>
+				<Nav routes={ this.props.routes }/>
+				<Content page={ this.props.page } match={ this.props.match } scores={ this.props.scores }/>
+				<Footer routes={ this.props.routes }/>
 			</div>
 		)
 	}

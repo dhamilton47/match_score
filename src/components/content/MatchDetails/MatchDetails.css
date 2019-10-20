@@ -1,7 +1,17 @@
 .match_details {
-    border: solid 1px red;
+
     display: block;
-    margin: 50px auto;
+    margin: 0px auto;
+    padding-top: 50px;
+    text-align: center;
+    width: 900px;
+}
+
+.match_details_spacer {
+    border: solid 1px transparent;
+    display: block;
+    margin: 0px auto;
+   /* padding-top: 50px;*/
     text-align: center;
     width: 900px;
 }
@@ -16,4 +26,11 @@ form select,
 form input[type="text"],
 form input[type="date"] {
     margin: 5px;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    width: 100px;
 }
